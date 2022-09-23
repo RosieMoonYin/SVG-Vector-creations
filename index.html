@@ -42,8 +42,8 @@
 
 <section="vector__flexcontainer">
 
-
-    <svg class="vector vector__diamond" width="1000" height="1000" viewbox="0 0 1000 1000">
+    <div class="vector__diamond">
+        <svg class="vector vector__diamond" width="1000" height="1000" viewbox="0 0 1000 1000">
 
             <polygon class="tri" points="500,100 200,500 800,500" style="fill:none; stroke:purple;stroke-width:8" stroke-linecap="round" />
             <polygon class="tri" points="500,100 400,500 600,500" style="fill:none; stroke:purple;stroke-width:8" stroke-linecap="round"/>
@@ -52,8 +52,9 @@
             <polygon class="tri" points="600,500 700,700 800,500" style="fill:none; stroke:purple;stroke-width:8" stroke-linecap="round"/>
         
             <line x1="300" y1="700" x2="700" y2="700" style="stroke:purple;stroke-width:8" stroke-linecap="round"/>
-    </svg>
-    <
+        </svg>
+    </div>
+    
     <!--THIS ONE DIDNT WORK??! Any ideas where the white cross goes?-->
     <svg class="vector vector__stopsign" width="500" height="500" viewbox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="250" cy="250" r="200" fill="red">
@@ -68,32 +69,54 @@
         <line x1="15" x2="600" y1="300" y2="300" style="fill:antiquewhite" stroke="white" stroke-width ="80"/>
     </svg>
 
-      <!--GRUMPY FACE-->
+
+    
+    <svg class="vector vector__creditcard2" width="600" height="400"  xmlns="http://www.w3.org/2000/svg">
+        <rect x="50" y="50" rx="40" ry="40" width="520" height="330" style="fill:rgb(123, 251, 11);"/>
+        <line x1="15" x2="600" y1="300" y2="300" stroke="white" stroke-width ="80"/>
+    </svg>
+
+
+    <!--EXTERNAL LINKED SVGS I had to write width and height properties inline becasue they didnt work externally-->
+    <svg width="600" height="600">
+        <use href="images/first.svg#vector__grump">
+        </use>
+    </svg>
+
+     <!--GRUMPY FACE / sceptic 2
       <div class="vector vector__grump">
         <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
             <circle cx="250" cy="250" r="200" fill="purple"></circle>
-            <line x1="200" y1="220" x2="240" y2="220" stroke="yellow" stroke-width="20" stroke-linecap="round"></line>
-            <line x1="260" y1="220" x2="300" y2="220" stroke="yellow" stroke-width="20" stroke-linecap="round"></line>
-            <line x1="200" y1="290" x2="300" y2="290" stroke="orange" stroke-width="20" stroke-linecap="round"></line>
+            <line x1="125" y1="200" x2="200" y2="200" stroke="yellow" stroke-width="15" stroke-linecap="round"></line>
+            <line x1="300" y1="200" x2="375" y2="200" stroke="yellow" stroke-width="15" stroke-linecap="round"></line>
+            <line x1="160" y1="320" x2="340" y2="320" stroke="orange" stroke-width="15" stroke-linecap="round"></line>
         </svg>
-    </div>
-
-    <!--COOL TECHNO WORM-->
+    </div>-->
 
 
 
-    <!--EXTERNAL LINKED SVGS-->
+
+    <!--COOL TECHNO WORM drawn in inkspace-->
+        <svg class="vector vector__cooltechnoworm" width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
+            
+
+        </svg>
+
+
+
+
+
+
+
+
+    <!--EXTERNAL LINKED SVGS
     <svg use xlink:href="" href="images/first.svg#vector__creditcard2"></svg>
-
-    <!--CREDIT CARD LIME GREEN EXTERNALLY LINKED SEE ABOVE
+    CREDIT CARD LIME GREEN EXTERNALLY LINKED SEE ABOVE
         <svg width="600" height="400"  xmlns="http://www.w3.org/2000/svg">
             <rect x="50" y="50" rx="40" ry="40" width="520" height="330" style="fill:rgb(123, 251, 11);"/>
             <line x1="15" x2="600" y1="300" y2="300" stroke="white" stroke-width ="80"/>
         </svg>
     -->
-
-
-
 
 </section>
 </body>

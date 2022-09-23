@@ -1,8 +1,10 @@
 
-        <svg class="vector vector__creditcard2" width="600" height="600"  xmlns="http://www.w3.org/2000/svg">
-            <symbol id="vector__creditcard2" viewbox="0 0 600 600">
-            <rect x="50" y="50" rx="40" ry="40" width="520" height="330" style="fill:rgb(123, 251, 11);"/>
-            <line x1="15" x2="600" y1="300" y2="300" stroke="white" stroke-width ="80"/>
+        <svg class="vector vector__grump" xmlns="http://www.w3.org/2000/svg">
+            <symbol id="vector__grump" viewbox="0 0 600 600">
+                <circle cx="250" cy="250" r="200" fill="purple"></circle>
+                <line x1="125" y1="200" x2="200" y2="200" stroke="yellow" stroke-width="15" stroke-linecap="round"></line>
+                <line x1="300" y1="200" x2="375" y2="200" stroke="yellow" stroke-width="15" stroke-linecap="round"></line>
+                <line x1="160" y1="320" x2="340" y2="320" stroke="orange" stroke-width="15" stroke-linecap="round"></line>
             </symbol>
         </svg>
  

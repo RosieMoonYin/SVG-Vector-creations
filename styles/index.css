@@ -12,7 +12,10 @@
 /*styling for diamond*/
 .tri {
     stroke-linejoin: round;
-
 }
+.vector__diamond {
+    transform: rotate(90deg);
+}
+
 
 /*styling for worm*/
