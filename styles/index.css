@@ -1,4 +1,18 @@
-.tri {
-    stroke-linejoin: round;
+
+.vector__flexcontainer {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
+/*styling for diamond*/
+.tri {
+    stroke-linejoin: round;
+
+}
+
+/*styling for worm*/
